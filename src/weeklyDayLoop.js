@@ -1,6 +1,8 @@
+"use strict";
+
 function getDayLoop(day) {
     let semaine = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"];
-    for (i = 1; i < semaine.length; i++ )
+    for (let i = 1; i < semaine.length; i++ )
     {
         if (day > 0 && day < 8 )
         {
@@ -12,4 +14,4 @@ function getDayLoop(day) {
     }
 
 }
-console.log(getDayLoop(1));
+console.log(getDayLoop(4));

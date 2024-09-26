@@ -1,3 +1,5 @@
+"use strict";
+
 function getDayIfElse(day) {
     if (day === 1) {
         return "Lundi";
